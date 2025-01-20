@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - MEDIATOR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            display:flex;
+            justify-content:space-evenly;
+            text-align: center;
+            align-items:center;
+            font-size: 2rem;
+        }
+        header a{
+            color:white;
+            text-decoration: none;
+            font-size:0.5em;
+            text-align:left;
+        }
+        header a:hover{
+            color:rgb(238, 204, 54);
+            cursor :pointer;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        main h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        main p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .contact {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            border-radius: 4px;
+        }
+        .contact h3 {
+            margin-top: 0;
+            color: #2E7D32;
+        }
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact ul li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 2rem;
+        }
+        button {
+            display: block;
+            margin: 1rem auto;
+            padding: 0.5rem 1rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45A049;
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+        <a href="/index.html">Home</a>
+        About MEDIATOR
+    </header>
+    <main>
+        <h2>Welcome to MEDIATOR</h2>
+        <p>
+            MEDIATOR is your go-to platform for creating and sharing your thoughts effortlessly. 
+            We aim to provide a seamless experience for users to write blogs and share their 
+            ideas with the world. Whether you're an avid reader or a passionate writer, 
+            MEDIATOR has something for everyone.
+        </p>
+        <p>
+            Explore a variety of blogs on different topics, engage with content from other 
+            users, and contribute your unique perspective by publishing your own blogs.
+        </p>
+
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><strong>Email:</strong> support@mediator.com</li>
+                <li><strong>Phone:</strong> +1-234-567-890</li>
+                <li><strong>Address:</strong> 123 Blog Avenue, Content City, Imaginaria</li>
+            </ul>
+        </div>
+
+        <button onclick="showMessage()">Click to Learn More</button>
+    </main>
+    <footer>
+        &copy; 2025 MEDIATOR. All rights reserved.
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert('Thank you for visiting MEDIATOR! Stay tuned for more features.');
+        }
+    </script>
+</body>
+</html>
