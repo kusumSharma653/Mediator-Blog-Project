@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    header{
+       
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100vh;
+        
+    }
+    nav {
+      height:15vh;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:2em;
+      color:white;
+      font-size:1em;
+      /* background:linear-gradient(rgba(138, 84, 48, 0.705),rgba(34, 128, 179, 0.7),orange); */
+      background-color: rgb(55, 177, 224);
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;  /* Ensures the navbar stays on top */
+    }
+    .nav-left .logo{
+      font-family: 'Arial', sans-serif;  /* Choose a font for the logo */
+      font-size: 2em;                    /* Set the font size */
+      font-weight: bold;                 /* Make the text bold */
+      color: whitesmoke;                    /* Set a color (light blue) */
+      text-transform: uppercase;         /* Make the text uppercase */
+      letter-spacing: 5px;               /* Space out the letters */
+      text-align: center;                /* Center-align the text */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Add a text shadow */
+      margin: 20px 0; 
+      
+  }
+ 
+  
+    .nav-right{
+      
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+    }
+    .nav-right ul {
+        display:flex;
+        justify-content:space-evenly;
+        
+     }
+     .nav-right ul li{
+         list-style: none;
+         padding-right:1em;
+         padding-left:1em;
+         
+     }
+     .nav-right ul a{
+      color:white;
+      text-decoration: none;
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: bold;
+     }
+     .nav-right ul a:hover{
+      color:rgb(30, 130, 170);
+      text-decoration: none;
+      ;
+     }
+    .nav-right button{
+        background-color:rgb(30, 130, 170);
+        color:white;
+        border:none;
+        border-radius:0.5em;
+        padding:0.5em;
+        margin:2em;
+    
+    }
+
+    .btn button{
+        margin-top:2em;
+        padding:1em;
+        background-color: rgb(38, 72, 136);
+        cursor:pointer;
+    }
+
+    .container {
+        padding: 0.5em;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+      .click-box {
+       width:30vh;
+       padding:2em;
+        background-color: rgb(33, 101, 146);
+        color:white;
+        font-family:helvetica;
+        font-size:1em;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: background-color 0.3s;
+      }
+  
+     
+  
+      .write-box {
+        display: none;
+        margin-top: 20px;
+      }
+  
+      textarea {
+        width: 300px;
+        height: 100px;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .styess{
+        display:flex;
+       justify-content:space-around;
+        gap:1em;
+        background-color: rgb(107, 103, 103);
+        color:white;
+        width:25vw;
+        padding:1em;
+        border-radius:1em;
+        margin:0.1em;
+      }
+      .effect{
+        background-color: rgb(37, 36, 36);
+        padding:1em;
+
+      }
+      .effect:hover {
+          cursor :pointer;
+          background-color: black;;
+      }
+    
+      main {
+        background: #ffffff;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .post {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+    
+    .post-title {
+        color: #35424a;
+    }
+    
+    .post-date {
+        font-size: 0.9em;
+        color: #888;
+    }
+    
+    footer {
+        background: #35424a;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+    
+    #postForm label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    
+    #postForm input, #postForm textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    #postForm button {
+        background: #35424a;
+        color: #ffffff;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    #postForm button:hover {
+        background: #4e5d6c;
+    }
+    
